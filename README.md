@@ -26,7 +26,7 @@ ln -s /path/to/your/coco/dataset datasets/coco
 2. To save the training and testing time, the explicit form of our IFR, annotated with "weight_sharing", is provided on [mask_rcnn](https://github.com/lufanma/IFR/tree/main/mask_rcnn.res50.fpn.coco.multiscale.weight_sharing.1x) to achieve competitive performance.
 
 
-3. For fast evaluation, please download trained model from [here](https://drive.google.com/drive/folders/13PCDEhmy6OjwOB1DPmYbD5AqD79uLT9P).
+3. For fast evaluation, please download trained model from [here](https://drive.google.com/drive/folders/13PCDEhmy6OjwOB1DPmYbD5AqD79uLT9P?usp=sharing).
 
 
 3. Run the project
@@ -52,9 +52,9 @@ sh pods_test.sh \
 
 |  Model  |   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |  Link  |
 |:-------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|  
-| mask_rcnn.ifr.res50.fpn.coco.multiscale.1x | 36.3 | 56.8 | 39.2 | 17.3 | 39.0 | 52.2 | [download](https://drive.google.com/drive/folders/13PCDEhmy6OjwOB1DPmYbD5AqD79uLT9P)
-| mask_rcnn.res50.fpn.coco.multiscale.weight_sharing.1x | 35.9 | 56.7 | 38.5 | 17.1 | 38.5 | 51.8 | [download](https://drive.google.com/drive/folders/13PCDEhmy6OjwOB1DPmYbD5AqD79uLT9P)
-| cascade_rcnn.ifr.res50.fpn.coco.800size.1x | 36.9 | 57.1 | 39.8 | 17.4 | 39.3 | 54.6 | [download](https://drive.google.com/drive/folders/13PCDEhmy6OjwOB1DPmYbD5AqD79uLT9P)
+| mask_rcnn.ifr.res50.fpn.coco.multiscale.1x | 36.3 | 56.8 | 39.2 | 17.3 | 39.0 | 52.2 | [download](https://drive.google.com/drive/folders/13PCDEhmy6OjwOB1DPmYbD5AqD79uLT9P?usp=sharing)
+| mask_rcnn.res50.fpn.coco.multiscale.weight_sharing.1x | 35.9 | 56.7 | 38.5 | 17.1 | 38.5 | 51.8 | [download](https://drive.google.com/drive/folders/13PCDEhmy6OjwOB1DPmYbD5AqD79uLT9P?usp=sharing)
+| cascade_rcnn.ifr.res50.fpn.coco.800size.1x | 36.9 | 57.1 | 39.8 | 17.4 | 39.3 | 54.6 | [download](https://drive.google.com/drive/folders/13PCDEhmy6OjwOB1DPmYbD5AqD79uLT9P?usp=sharing)
 
 
 ## Citing IFR
